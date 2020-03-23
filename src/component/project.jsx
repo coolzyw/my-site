@@ -168,7 +168,7 @@ export default class Project extends Component {
                             <li className="item"><a href="https://github.com/coolzyw" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-github" style={{color:"white"}}></i>
                             </a></li>
-                            <li className="item"><a href="https://www.linkedin.com/in/dhruv-b-545b52a9/" target="_blank" rel="noopener noreferrer">
+                            <li className="item"><a href="https://www.linkedin.com/in/yiwei-mary-zhang-177025154/" target="_blank" rel="noopener noreferrer">
                                 <i className="fa fa-linkedin" style={{color:"white"}}></i>
                             </a></li>
                             <li className="item"><a href="https://www.instagram.com/yiweiiiiiiiii/" target="_blank" rel="noopener noreferrer">
