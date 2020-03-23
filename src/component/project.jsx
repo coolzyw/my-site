@@ -124,6 +124,8 @@ export default class Project extends Component {
                 <button className="section-subtitle"> Web </button>
 
                 <button className="section-subtitle"> AI & ML  </button>
+
+                <h5> contact info </h5>
             </div>
         );
     }
