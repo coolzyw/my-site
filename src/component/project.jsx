@@ -71,6 +71,21 @@ export default class Project extends Component {
                 <br/>
 
 
+                <button className="section-subtitle"> Web Application </button>
+                <div className="each-section-project">
+                    <h4 className="project-name"> News Search Engine on AWS </h4>
+                    <ul className="text">
+                        <li className="intro"> Streamed 60,000 documents to ElasticSeach index. </li>
+                        <li className="intro"> Built a stateless Java web application that can easily be run on any other machine, can handle many concurrent requests. </li>
+                        <li className="intro"> Periodically renewed the backend documents using Lambda and deployed on AWS.  </li>
+                    </ul>
+                </div>
+
+                <br/>
+                <br/>
+
+
+
                 <button className="section-subtitle"> UI & Graphics </button>
                 <div className="each-section-project">
                     <h4 className="project-name"> 3D world camera exploration
@@ -120,12 +135,32 @@ export default class Project extends Component {
 
                 </div>
 
-
-                <button className="section-subtitle"> Web </button>
-
                 <button className="section-subtitle"> AI & ML  </button>
+                <div className="each-section-project">
+                    <h4 className="project-name"> Solving Geometric Analogy Problems
+                    </h4>
+                    <ul className="text">
+                        <li className="intro"> Identified different representations of a shape using graph searching algorithm. </li>
+                        <li className="intro"> Calculated the optimal answer using first/second order transformation. </li>
+                    </ul>
+                    <div className="demo-pic">
+                        <img className="each-demo-pic-ui" src={ require('../AI.png') } />
+                    </div>
+                </div>
 
-                <h5> contact info </h5>
+                <div className="each-section-project">
+                    <h4 className="project-name"> Church Classification
+                    </h4>
+                    <ul className="text">
+                        <li className="intro"> Removed irrelevant noise and standardized the raw input image. </li>
+                        <li className="intro"> Created a better idea of the underlying feature representation using autoencoding. </li>
+                        <li className="intro"> Constructed a Convolution Neural Network using Pytorch, and compared
+                            performance on different combinations. </li>
+                    </ul>
+
+                </div>
+
+
             </div>
         );
     }
