@@ -88,6 +88,21 @@ export default class Project extends Component {
 
                 <button className="section-subtitle"> UI & Graphics </button>
                 <div className="each-section-project">
+                    <h4 className="project-name"> COVID-19 Hackthon 1.0: Community Grocery App
+                        <a className="code" target="_blank" href="https://devpost.com/software/community-grocery-app">  &#128073; website </a>
+                    </h4>
+                    <ul className="text">
+                        <li className="intro"> Came up with a proposal to address the grocery burden and local needs during spread of covid-19.  </li>
+                        <li className="intro"> Marketed my idea and recruited people to work together. </li>
+                        <li className="intro"> Designed a prototype of three different views, and did a 2-min video demo. </li>
+                    </ul>
+                </div>
+
+                <br/>
+                <br/>
+
+
+                <div className="each-section-project">
                     <h4 className="project-name"> 3D world camera exploration
                         <a className="code" target="_blank" href="https://github.com/coolzyw/3D-world-camera-exploration">  &#128073; code </a>
                     </h4>
