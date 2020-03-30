@@ -98,6 +98,10 @@ export default class Project extends Component {
                     </ul>
                 </div>
 
+                <div className="demo-pic">
+                    <img className="each-demo-pic-ui" src={ require('../hackthon.png') } />
+                </div>
+
                 <br/>
                 <br/>
 

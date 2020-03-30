@@ -60,6 +60,11 @@
     margin: 2%;
 }
 
+.each-demo-pic-hackthon {
+    width: 10%;
+    margin: 2%;
+}
+
 .code {
     margin-left: 5%;
     color: coral;
@@ -74,3 +79,4 @@
 .code:hover {
     background-color: grey;
 }
+
