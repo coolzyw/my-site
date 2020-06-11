@@ -42,6 +42,9 @@ export default class Home extends Component {
                         <li className="contact-info-item">
                             Email: yiweizhang2020@u.northwestern.edu
                         </li>
+                        <li className="contact-info-item-copyright">
+                            Copyright &#169; 2020 Yiwei Zhang. All Rights Reserved.
+                        </li>
                     </ul>
                 </nav>
             </div>
